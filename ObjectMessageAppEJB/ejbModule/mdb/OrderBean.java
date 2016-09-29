@@ -32,7 +32,7 @@ public class OrderBean implements MessageListener {
 			System.out.println("Part number: " + order.getPartNum());
 			System.out.println("Weight: " + order.getWeight());
 			System.out.println("Quantity: " + order.getQuantity());
-			System.out.println("Order received. Now fuck off.");
+			System.out.println("Order received.");
 		} catch (JMSException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
